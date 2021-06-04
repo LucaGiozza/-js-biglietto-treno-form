@@ -42,7 +42,7 @@ document.getElementById('numcarrozz').innerHTML = random ;
 document.getElementById('codice').innerHTML = codiceCp ;
 document.getElementById('costo').innerHTML = prezzo ;
 document.getElementById('luca').innerHTML = valore;
-// document.getElementById('sparisci').classList.add('show');
+ document.getElementById('sparisci').classList.remove('hidden');
 
 
 });
