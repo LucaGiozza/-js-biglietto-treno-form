@@ -13,8 +13,11 @@ console.log(eta)
 
 
 
+
+
 // prendiamo i km
 var km = document.getElementById('km').value;
+
 var prezzo = km 
 
 
