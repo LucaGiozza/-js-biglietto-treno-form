@@ -1,5 +1,6 @@
 var procedi = document.getElementById('genera');
 
+
 procedi.addEventListener("click", function(){
 //   prendiamo il nome
    var valore = document.getElementById('nome').value;
@@ -41,6 +42,9 @@ document.getElementById('numcarrozz').innerHTML = random ;
 document.getElementById('codice').innerHTML = codiceCp ;
 document.getElementById('costo').innerHTML = prezzo ;
 document.getElementById('luca').innerHTML = valore;
+// document.getElementById('sparisci').classList.add('show');
+
+
 });
 
 var annulla = document.getElementById('annulla');
@@ -48,4 +52,7 @@ var annulla = document.getElementById('annulla');
 annulla.addEventListener("click", function(){
     document.getElementById('nome').value = "";
     document.getElementById('fascia-eta').value = "";
+    document.getElementById('km').value= "";
+
+    document.getElementById('sparisci').classList.add("hidden")
 });
