@@ -30,4 +30,22 @@ if(eta == 'minorenne'){
   
   console.log(prezzo)
 
-})
+  var random = Math.floor(Math.random() * 9) + 1 ;
+  var codiceCp = Math.floor(Math.random() * 10000) + 90000 ;
+  
+
+//   output
+
+document.getElementById('offertona').innerHTML = eta;
+document.getElementById('numcarrozz').innerHTML = random ;
+document.getElementById('codice').innerHTML = codiceCp ;
+document.getElementById('costo').innerHTML = prezzo ;
+document.getElementById('luca').innerHTML = valore;
+});
+
+var annulla = document.getElementById('annulla');
+
+annulla.addEventListener("click", function(){
+    document.getElementById('nome').value = "";
+    document.getElementById('fascia-eta').value = "";
+});
