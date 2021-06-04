@@ -13,6 +13,8 @@ body{
     font-size: 28px;
     margin-top: 3%;
 }
+
+/* inizio primo container */
 .container-superiore{
     height: 230px;
     width: 75%;
@@ -52,4 +54,26 @@ select{
     border-radius: 5px;
     padding: 5px;
     text-align: center;   
+}
+
+.container-button{
+    text-align: center;
+    margin-top: 50px;
+}
+#genera{
+    background-color: rgb(175, 172, 172);
+    color: rgb(255, 0, 43);
+    border: 1px solid rgb(185, 14, 185) ;
+    padding:5px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-right: 20px;
+}
+#annulla{
+    background-color: rgb(175, 172, 172);
+    color: rgb(255, 0, 43);
+    border: 1px solid green; 
+    padding:5px 10px;
+    border-radius: 5px;
+    font-size: 18px; 
 }
